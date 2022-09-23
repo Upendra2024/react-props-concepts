@@ -9,8 +9,8 @@ export class Parent extends React.Component{
     }
     this.changeHandler = this.changeHandler.bind(this)
   }
-   changeHandler(){
-     alert(`Hello this to ${this.state.Parent} from `)
+   changeHandler(childName){
+     alert(`Hello this to ${this.state.Parent} from  ${childName}`)
    }
   
   render(){
