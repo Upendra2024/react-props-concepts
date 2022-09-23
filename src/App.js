@@ -11,7 +11,7 @@ export default function App() {
       <Greet name = "Batman"  studioName ="DC comics"/>
       <Message name ="SpiderMan" studioName="Marvel"/>
       <Eventbind/>
-      <Parent/>
+      {/* <Parent/> */}
       
     </div>
   );
